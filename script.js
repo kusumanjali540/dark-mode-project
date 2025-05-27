@@ -1,7 +1,7 @@
 const toggleButton = document.getElementById('toggle-theme');
 const body = document.body;
 // Check for saved user preference modified
-
+// Check for saved user preference modified 3
 // Check for saved user preference
 if (localStorage.getItem('theme') === 'dark') {
   body.classList.add('dark-mode');
